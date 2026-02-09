@@ -1,5 +1,5 @@
 
-import Destino from './location.model';
+import Destino from './location.model.js';
 
 export const findAllDestinos = async () => {
     try {

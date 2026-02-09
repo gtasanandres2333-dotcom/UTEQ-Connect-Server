@@ -1,6 +1,6 @@
 // location.routes.ts
 import * as express from 'express';
-import { getLocations, getAllAddresses } from './location.controller';
+import { getLocations, getAllAddresses } from './location.controller.js';
 
 const router = express.Router();
 

@@ -1,6 +1,6 @@
 // location.controller.ts
 import { Request, Response } from 'express';
-import * as locationService from './location.service';
+import * as locationService from './location.service.js';
 
 export const getLocations = async (req: Request, res: Response) => {
     try {
