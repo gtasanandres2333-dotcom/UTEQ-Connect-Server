@@ -1,8 +1,8 @@
 import express, { Application } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import connectDB from './database/MongoDB.ts';
-import locationRoutes from './apis/location/location.routes.ts';
+import connectDB from './database/MongoDB';
+import locationRoutes from './apis/location/location.routes';
 
 dotenv.config();
 
