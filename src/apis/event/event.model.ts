@@ -67,7 +67,7 @@ const EventSchema = new Schema<IEvent>({
   desactivarEn: {
     type: Date
   }
-}, { 
+}, {
   timestamps: true,
   collection: 'events'
 });
